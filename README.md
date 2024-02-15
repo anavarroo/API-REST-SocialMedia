@@ -3,14 +3,14 @@
 API Twitter es una aplicación de redes sociales que proporciona una plataforma para que los usuarios publiquen y compartan sus pensamientos, imágenes y más. Esta API proporciona servicios para la autenticación de usuarios, publicación de mensajes, seguimiento de usuarios y más.
 
 ## Indice
-1. [Tengoloias Utilizadas]
-2. [Requisitos minimos]
-     - [Estructura]
-     - [BBDD MySQL]
+1. [Tecnologias Utilizadas](#tecnologías-utilizadas)
+2. [Requisitos minimos](#requisitos-minimos)
+     - [Estructura](#)
+     - [BBDD MySQL](#)
      - [Entidades]
-       - [DTO]
-       - [Servicios/Controladores]
-       - [Spring Security JWT]
+     - [DTO]
+     - [Servicios/Controladores]
+     - [Spring Security JWT]
        
 4. [Requisitos EXTRAS]
      - [Swagger]
@@ -26,6 +26,28 @@ API Twitter es una aplicación de redes sociales que proporciona una plataforma 
 - MySQL
 - JSON Web Tokens (JWT)
 - Lombok
+
+## Requisitos minimos
+
+### Estructura
+
+### BBDD MySQL
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+### Entidades
+### DTO
+### Servicios/Controladores
+### Spring Security JWT
+
+## Requisitos EXTRAS
+### Swagger
+### ControllerAdive
+### Comentarios e imagenes
+### Front con Flutter
+
+
 
 ## Estructura del Proyecto
 El proyecto está dividido en varios paquetes, cada uno con su responsabilidad específica:
