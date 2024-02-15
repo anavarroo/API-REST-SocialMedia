@@ -54,5 +54,4 @@ Si quieres contribuir a este proyecto, por favor sigue estos pasos:
 ## Autores
 Alberto Navarro Vega, Emilio Orduña Peña
 
-## Licencia
-Este proyecto está bajo la Licencia MIT - consulta el archivo LICENSE.md para más detalles.
+
