@@ -5,17 +5,17 @@ API Twitter es una aplicación de redes sociales que proporciona una plataforma 
 ## Indice
 1. [Tengoloias Utilizadas]
 2. [Requisitos minimos]
-     -[Estructura]
-     -[BBDD MySQL]
-     -[Entidades]
-       -[DTO]
-       -[Servicios/Controladores]
-       -[Spring Security JWT]
+     - [Estructura]
+     - [BBDD MySQL]
+     - [Entidades]
+       - [DTO]
+       - [Servicios/Controladores]
+       - [Spring Security JWT]
        
 4. [Requisitos EXTRAS]
-     -[Swagger]
-     -[ControllerAdvice]
-     -[Comentarios e imagenes]
+     - [Swagger]
+     - [ControllerAdvice]
+     - [Comentarios e imagenes]
    
 
 ## Tecnologías Utilizadas
