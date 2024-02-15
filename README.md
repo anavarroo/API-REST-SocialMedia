@@ -32,10 +32,10 @@ API Twitter es una aplicación de redes sociales que proporciona una plataforma 
 ### Estructura
 
 ### BBDD MySQL
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/694f2398-baf6-49d5-b496-215488099f55)
+![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/0fcbd16b-d1ca-4f85-a0f2-576b0e24ed7d)
+![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/71f9aafa-ada7-4346-b06e-a768d1a24ae6)
+
 ### Entidades
 ### DTO
 ### Servicios/Controladores
