@@ -2,6 +2,22 @@
 
 API Twitter es una aplicación de redes sociales que proporciona una plataforma para que los usuarios publiquen y compartan sus pensamientos, imágenes y más. Esta API proporciona servicios para la autenticación de usuarios, publicación de mensajes, seguimiento de usuarios y más.
 
+## Indice
+1. [Tengoloias Utilizadas]
+2. [Requisitos minimos]
+     -[Estructura]
+     -[BBDD MySQL]
+     -[Entidades]
+       -[DTO]
+       -[Servicios/Controladores]
+       -[Spring Security JWT]
+       
+4. [Requisitos EXTRAS]
+     -[Swagger]
+     -[ControllerAdvice]
+     -[Comentarios e imagenes]
+   
+
 ## Tecnologías Utilizadas
 - Java
 - Spring Boot
