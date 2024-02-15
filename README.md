@@ -31,6 +31,9 @@ API Twitter es una aplicación de redes sociales que proporciona una plataforma 
 
 ### Estructura
 
+![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/631fd1f3-3350-49da-bbe5-254e2fd8ea8f)
+
+
 ### BBDD MySQL
 ![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/694f2398-baf6-49d5-b496-215488099f55)
 
@@ -42,12 +45,23 @@ API Twitter es una aplicación de redes sociales que proporciona una plataforma 
 
 ![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/ce05a3c4-435b-4f36-96ce-4a93839a35af)
 
-
-
 ### Entidades
+
+![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/61eaf8f9-12ac-470f-ac9a-153bc6877b36)
+
 ### DTO
+
+![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/871ba922-33f5-40db-a5cd-f42106a44a9d)
+
 ### Servicios/Controladores
+
+![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/0012f5a3-4da2-4245-9a8e-ac948307aec6)
+
+
 ### Spring Security JWT
+
+![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/872ca207-4a9e-4a9e-ae34-cf768e08a93d)
+
 
 ## Requisitos EXTRAS
 ### Swagger
