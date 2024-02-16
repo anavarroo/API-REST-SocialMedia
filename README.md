@@ -2,7 +2,7 @@
 
 API Twitter es una aplicación de redes sociales que proporciona una plataforma para que los usuarios publiquen y compartan sus pensamientos, imágenes y más. Esta API proporciona servicios para la autenticación de usuarios, publicación de mensajes, seguimiento de usuarios y más.
 
-## Indice
+## Índice
 1. [Tecnologias Utilizadas](#tecnologías-utilizadas)
 2. [Requisitos minimos](#requisitos-minimos)
      - [Estructura](#estructura)
