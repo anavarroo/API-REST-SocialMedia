@@ -5,19 +5,19 @@ API Twitter es una aplicación de redes sociales que proporciona una plataforma 
 ## Indice
 1. [Tecnologias Utilizadas](#tecnologías-utilizadas)
 2. [Requisitos minimos](#requisitos-minimos)
-     - [Estructura](#Es)
-     - [BBDD MySQL](#)
-     - [Entidades]
-     - [DTO]
-     - [Servicios/Controladores]
-     - [Spring Security JWT]
+     - [Estructura](#estructura)
+     - [BBDD MySQL](#bbdd-mysql)
+     - [Entidades](#entidades)
+     - [DTO](#dto)
+     - [Servicios/Controladores](#servicioscontroladores)
+     - [Spring Security JWT](#spring-security-jwt)
        
-4. [Requisitos EXTRAS]
-     - [Swagger]
-     - [ControllerAdvice]
-     - [Comentarios e imagenes]
-5. [Configuracion]
-6. [Requisitos Previos]
+4. [Requisitos EXTRAS](#requisitos-extras)
+     - [Swagger](#swagger)
+     - [ControllerAdvice](#controlleradive)
+     - [Comentarios e imagenes](#comentarios-e-imagenes)
+5. [Configuracion](#configuración)
+6. [Requisitos Previos](#requisitos-previos)
    
 
 ## Tecnologías Utilizadas
@@ -61,6 +61,7 @@ El proyecto está dividido en varios paquetes, cada uno con su responsabilidad e
 
 ![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/ce05a3c4-435b-4f36-96ce-4a93839a35af)
 
+**Breve Explicación:**
 1. users:
 
 - Esta tabla almacena la información de los usuarios de la plataforma.
@@ -89,6 +90,8 @@ En resumen, estas tablas permiten el funcionamiento básico de una red social do
 ### Entidades
 
 ![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/61eaf8f9-12ac-470f-ac9a-153bc6877b36)
+
+**Breve Explicación:**
 
 1, Comment:
 
@@ -123,6 +126,8 @@ En general, estos modelos de entidad forman la base de datos subyacente para la 
 
 ![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/871ba922-33f5-40db-a5cd-f42106a44a9d)
 
+**Breve Explicación:**
+
 1. CommentDTO:
 
 - Este DTO se utiliza para transferir datos de comentarios entre el cliente y el servidor.
@@ -151,6 +156,7 @@ En resumen, estos conjuntos de DTOs simplifican la transferencia de datos entre 
 
 ![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/33a9cca9-d872-40c1-8644-cfbc96f21afa)
 
+**Breve Explicación:**
 
 1. CommentController:
 
@@ -191,6 +197,8 @@ En resumen, estos conjuntos de DTOs simplifican la transferencia de datos entre 
 ### Spring Security JWT
 
 ![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/872ca207-4a9e-4a9e-ae34-cf768e08a93d)
+
+**Breve Explicación:**
 
 El paquete security contiene clases relacionadas con la autenticación y seguridad en la API REST:
 
@@ -244,6 +252,8 @@ public class GlobalExceptionHandler {
 
 }
 ```
+
+**Breve Explicación:**
 
 Esta clase anotada con @ControllerAdvice maneja excepciones a nivel global en la aplicación. Contiene dos métodos anotados con @ExceptionHandler, uno para manejar excepciones de tipo Exception y otro para manejar excepciones de tipo IllegalArgumentException. Ambos métodos devuelven una respuesta HTTP con el código de estado correspondiente y un mensaje que describe el error ocurrido. Las excepciones de tipo Exception se manejan como errores internos del servidor (HTTP 500), mientras que las excepciones de tipo IllegalArgumentException se manejan como solicitudes incorrectas del cliente (HTTP 400).
 
