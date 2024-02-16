@@ -147,13 +147,65 @@ En resumen, estos conjuntos de DTOs simplifican la transferencia de datos entre 
 
 ![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/0012f5a3-4da2-4245-9a8e-ac948307aec6)
 
+![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/33a9cca9-d872-40c1-8644-cfbc96f21afa)
+
+
+1. CommentController:
+
+- Este controlador maneja operaciones relacionadas con los comentarios en la API REST.
+- Tiene un endpoint createComment para crear un comentario en una publicación específica.
+- Utiliza el servicio CommentService para procesar las solicitudes de comentarios.
+- Requiere autenticación del usuario y utiliza los detalles del usuario autenticado para obtener el nombre de usuario asociado al comentario.
+- Retorna una respuesta con el comentario creado y el estado HTTP 201 (Creado) en caso de éxito.
+
+2. FollowController:
+
+- Este controlador maneja operaciones relacionadas con seguir y dejar de seguir a otros usuarios.
+- Incluye endpoints para seguir a un usuario, dejar de seguir a un usuario, obtener los seguidores de un usuario y obtener los usuarios seguidos por un usuario.
+- Utiliza los servicios FollowService y UserService para procesar las solicitudes relacionadas con los seguidores.
+- Requiere autenticación del usuario y utiliza los detalles del usuario autenticado para realizar operaciones relacionadas con seguir y dejar de seguir usuarios.
+- Retorna respuestas con mensajes indicando el resultado de las operaciones y los estados HTTP correspondientes.
+
+3. PublicationController:
+
+- Este controlador maneja operaciones relacionadas con las publicaciones en la API REST.
+- Incluye endpoints para crear, eliminar, editar y obtener publicaciones.
+- También proporciona endpoints para obtener publicaciones de un usuario específico y publicaciones de los usuarios seguidos por un usuario.
+- Utiliza el servicio PublicationService para procesar las solicitudes relacionadas con las publicaciones.
+- Requiere autenticación del usuario y utiliza los detalles del usuario autenticado para realizar operaciones relacionadas con las publicaciones.
+- Retorna respuestas con las publicaciones solicitadas y los estados HTTP correspondientes.
+
+
+4. UserController:
+
+- Este controlador maneja operaciones relacionadas con usuarios en la API REST.
+- Incluye endpoints para buscar un usuario por su nombre de usuario y para actualizar la descripción de un usuario.
+- Utiliza el servicio UserService para procesar las solicitudes relacionadas con los usuarios.
+- Requiere autenticación del usuario para actualizar la descripción y utiliza los detalles del usuario autenticado para realizar esta operación.
+- Retorna respuestas con el usuario encontrado o un estado HTTP 404 si no se encuentra, así como con el estado HTTP correspondiente para la actualización de la descripción.
+
+
 
 ### Spring Security JWT
 
 ![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/872ca207-4a9e-4a9e-ae34-cf768e08a93d)
 
+El paquete security contiene clases relacionadas con la autenticación y seguridad en la API REST:
+
+- AuthController: Maneja inicio de sesión y registro de usuarios.
+- AuthResponse: Representa la respuesta de autenticación con el token JWT.
+- LoginRequest: Contiene datos de inicio de sesión como nombre de usuario y contraseña.
+- PublicationRequest: Contiene datos para crear publicaciones.
+- RegisterRequest: Contiene datos para registrar nuevos usuarios.
+- AuthService: Procesa inicio de sesión y registro de usuarios.
+- JWTService: Genera y valida tokens JWT para la autenticación.
+- ApplicationConfig: Configura la autenticación y codificación de contraseñas.
+- SecurityConfig: Configura reglas de autorización y manejo de autenticación con JWT.
+- JWTAuthenticationFilter: Filtra y valida tokens JWT en las solicitudes entrantes.
+
 
 ## Requisitos EXTRAS
+
 ### Swagger
 ### ControllerAdive
 ### Comentarios e imagenes
