@@ -266,9 +266,11 @@ Esta clase anotada con @ControllerAdvice maneja excepciones a nivel global en la
 ![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/d92e5cd3-d598-4d49-87b1-42709e7b9adc)
 
 ### Front con Flutter
-
-![Imagen de WhatsApp 2024-02-16 a las 12 10 16_95d9e34f](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/2717bd8a-3d87-460e-a565-3bb77d69a6f5)
-
+![Imagen de WhatsApp 2024-02-16 a las 12 06 27_b97efaa0](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/fc10e043-7646-483c-aeb0-849e74feb94b)
+![Imagen de WhatsApp 2024-02-16 a las 12 06 58_404eda04](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/e5178021-3a2a-4cf6-83b1-608815061a84)
+![Imagen de WhatsApp 2024-02-16 a las 12 09 35_528e9430](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/c43947b0-5826-40ae-9edd-3dd60d5f38a0)
+![Imagen de WhatsApp 2024-02-16 a las 12 09 59_4fd76439](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/752d917c-94f1-4003-ad94-940a7e8f8bbb)
+![Imagen de WhatsApp 2024-02-16 a las 12 10 16_6127c462](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/419aea12-b2e4-4549-8144-ada414e61184)
 
 
 ## Requisitos Previos
