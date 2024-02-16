@@ -5,7 +5,7 @@ API Twitter es una aplicación de redes sociales que proporciona una plataforma 
 ## Indice
 1. [Tecnologias Utilizadas](#tecnologías-utilizadas)
 2. [Requisitos minimos](#requisitos-minimos)
-     - [Estructura](#)
+     - [Estructura](#Es)
      - [BBDD MySQL](#)
      - [Entidades]
      - [DTO]
@@ -16,6 +16,8 @@ API Twitter es una aplicación de redes sociales que proporciona una plataforma 
      - [Swagger]
      - [ControllerAdvice]
      - [Comentarios e imagenes]
+5. [Configuracion]
+6. [Requisitos Previos]
    
 
 ## Tecnologías Utilizadas
@@ -247,17 +249,11 @@ Esta clase anotada con @ControllerAdvice maneja excepciones a nivel global en la
 
 ### Comentarios e imagenes
 
-![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/8a7a198a-2075-4bd9-bfe4-f816b7d4fc19)
-
-
+![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/d92e5cd3-d598-4d49-87b1-42709e7b9adc)
 
 ### Front con Flutter
 
 
-
-
-
-  
 ## Requisitos Previos
 - Java JDK 8 o superior
 - MySQL Server
@@ -267,11 +263,6 @@ Esta clase anotada con @ControllerAdvice maneja excepciones a nivel global en la
 1. Clona el repositorio desde GitHub.
 2. Configura la base de datos MySQL y actualiza las credenciales en el archivo application.properties.
 3. Ejecuta el proyecto usando Maven o tu IDE preferido.
-
-## Uso
-1. Realiza una solicitud de registro (/auth/register) con un nombre de usuario, correo  electrónico y contraseña para crear una cuenta.
-2. Inicia sesión (/auth/login) con tus credenciales para obtener un token JWT.
-3. Usa el token JWT en las solicitudes posteriores para acceder a los recursos protegidos.
    
 ## Contribuir
 Si quieres contribuir a este proyecto, por favor sigue estos pasos:
