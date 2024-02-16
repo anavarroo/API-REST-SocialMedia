@@ -88,9 +88,60 @@ En resumen, estas tablas permiten el funcionamiento básico de una red social do
 
 ![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/61eaf8f9-12ac-470f-ac9a-153bc6877b36)
 
+1, Comment:
+
+- Representa los comentarios realizados por los usuarios en las publicaciones.
+- Tiene campos para el identificador del comentario (commentId), el usuario que realizó el comentario (user), la publicación a la que se refiere el comentario (publication), el texto del comentario (text), y la fecha de creación (creationDate).
+- Utiliza anotaciones de Lombok para generar constructores y métodos getter/setter automáticamente, así como anotaciones de Hibernate para el mapeo ORM.
+  
+2. Follow:
+
+- Modela las relaciones de seguimiento entre usuarios.
+- Contiene un identificador (id), un seguidor (follower), y un usuario seguido (following).
+- También hace uso de anotaciones de Lombok y Hibernate para la generación de código y el mapeo ORM.
+  
+3. Publication:
+
+- Representa las publicaciones realizadas por los usuarios.
+- Contiene campos para el identificador de la publicación (id), el autor de la publicación (author), el texto de la publicación (text), la URL de la imagen asociada (imageUrl), y las fechas de creación y edición (creationDate y editDate, respectivamente).
+- Incluye una relación de uno a muchos con los comentarios realizados en esa publicación (comments).
+- Al igual que los otros modelos, hace uso de anotaciones para la generación de código y el mapeo ORM.
+  
+4. User:
+
+- Representa los usuarios de la plataforma.
+- Contiene campos para el identificador de usuario (id), nombre de usuario (username), correo electrónico (email), contraseña (password), descripción (description), fecha de creación (creationDate), y un rol (role).
+- Tiene una relación de uno a muchos con las publicaciones realizadas por el usuario (publications).
+- Implementa la interfaz UserDetails de Spring Security para gestionar la autenticación y autorización.
+- Al igual que los otros modelos, utiliza anotaciones para la generación de código y el mapeo ORM.
+  
+En general, estos modelos de entidad forman la base de datos subyacente para la aplicación de API REST, permitiendo la gestión de usuarios, publicaciones, comentarios y relaciones de seguimiento entre usuarios.
+
 ### DTO
 
 ![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/871ba922-33f5-40db-a5cd-f42106a44a9d)
+
+1. CommentDTO:
+
+- Este DTO se utiliza para transferir datos de comentarios entre el cliente y el servidor.
+- Contiene campos como commentId (identificador del comentario), username (nombre de usuario del que realizó el comentario), text (contenido del comentario) y creationDate (fecha de creación del comentario).
+- Se centra en la información esencial relacionada con los comentarios y proporciona los datos necesarios para mostrar un comentario en la interfaz de usuario.
+
+2. PublicationDTO:
+
+- Utilizado para transferir datos de publicaciones entre el cliente y el servidor.
+- Contiene campos como id (identificador de la publicación), author (DTO de usuario que creó la publicación), text (contenido de la publicación), imageUrl (URL de la imagen asociada), creationDate (fecha de -creación de la publicación) y editDate (fecha de edición de la publicación).
+- También incluye una lista de CommentDTO para representar los comentarios asociados con la publicación.
+- Proporciona la información necesaria para visualizar una publicación, incluidos los comentarios relacionados.
+
+3. UserDTO:
+
+- Se utiliza para transferir datos de usuarios entre el cliente y el servidor.
+- Contiene campos como username (nombre de usuario), desc (descripción del usuario) y role (rol del usuario).
+- Este DTO puede utilizarse para representar usuarios en diferentes contextos, como al mostrar detalles de usuario o al listar usuarios.
+- Proporciona los datos básicos del usuario necesarios para las operaciones de la interfaz de usuario sin incluir detalles complejos.
+
+En resumen, estos conjuntos de DTOs simplifican la transferencia de datos entre las capas de la aplicación al transmitir solo la información relevante y necesaria para operaciones específicas, como la visualización de publicaciones, comentarios y usuarios en una aplicación de red social.
 
 ### Servicios/Controladores
 
