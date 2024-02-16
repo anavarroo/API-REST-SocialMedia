@@ -1,4 +1,4 @@
-# API Twitter
+# API-REST SocialMedia
 
 API Twitter es una aplicación de redes sociales que proporciona una plataforma para que los usuarios publiquen y compartan sus pensamientos, imágenes y más. Esta API proporciona servicios para la autenticación de usuarios, publicación de mensajes, seguimiento de usuarios y más.
 
@@ -41,17 +41,17 @@ API Twitter es una aplicación de redes sociales que proporciona una plataforma 
 
 El proyecto está dividido en varios paquetes, cada uno con su responsabilidad específica:
 
-- com.API_Twitter.controllers: Contiene los controladores REST para manejar las solicitudes HTTP.
-- com.API_Twitter.persistence.model: Define las entidades de la base de datos utilizando JPA.
-- com.API_Twitter.persistence.repository: Define los repositorios JPA para interactuar con la base de datos.
-- com.API_Twitter.services: Contiene la lógica de negocio de la aplicación.
-- com.API_Twitter.security: Configuración y servicios relacionados con la seguridad de la aplicación.
-- com.API_Twitter.security.auth.model: Define los modelos de datos para la autenticación y autorización.
-- com.API_Twitter.security.auth.services: Servicios relacionados con la autenticación y generación de tokens JWT.
-- com.API_Twitter.security.config: Configuración de Spring Security y JWT.
-- com.API_Twitter.security.jwt: Filtros para la autenticación basada en JWT.
-- com.API_Twitter.security.auth.controllers: Controladores para el manejo de la autenticación y autorización.
-- com.API_Twitter.persistence.DTO: Objetos de transferencia de datos utilizados para intercambiar información entre capas.
+- com.API_REST.controllers: Contiene los controladores REST para manejar las solicitudes HTTP.
+- com.API_REST.persistence.model: Define las entidades de la base de datos utilizando JPA.
+- com.API_REST.persistence.repository: Define los repositorios JPA para interactuar con la base de datos.
+- com.API_REST.services: Contiene la lógica de negocio de la aplicación.
+- com.API_REST.security: Configuración y servicios relacionados con la seguridad de la aplicación.
+- com.API_REST.security.auth.model: Define los modelos de datos para la autenticación y autorización.
+- com.API_REST.security.auth.services: Servicios relacionados con la autenticación y generación de tokens JWT.
+- com.API_REST.security.config: Configuración de Spring Security y JWT.
+- com.API_REST.security.jwt: Filtros para la autenticación basada en JWT.
+- com.API_REST.security.auth.controllers: Controladores para el manejo de la autenticación y autorización.
+- com.API_REST.persistence.DTO: Objetos de transferencia de datos utilizados para intercambiar información entre capas.
 
 
 ### BBDD MySQL
