@@ -242,7 +242,15 @@ public class GlobalExceptionHandler {
 
 }
 ```
+
+Esta clase anotada con @ControllerAdvice maneja excepciones a nivel global en la aplicación. Contiene dos métodos anotados con @ExceptionHandler, uno para manejar excepciones de tipo Exception y otro para manejar excepciones de tipo IllegalArgumentException. Ambos métodos devuelven una respuesta HTTP con el código de estado correspondiente y un mensaje que describe el error ocurrido. Las excepciones de tipo Exception se manejan como errores internos del servidor (HTTP 500), mientras que las excepciones de tipo IllegalArgumentException se manejan como solicitudes incorrectas del cliente (HTTP 400).
+
 ### Comentarios e imagenes
+
+![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/8a7a198a-2075-4bd9-bfe4-f816b7d4fc19)
+
+
+
 ### Front con Flutter
 
 
