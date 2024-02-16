@@ -17,8 +17,11 @@ API Twitter es una aplicación de redes sociales que proporciona una plataforma 
      - [ControllerAdvice](#controlleradive)
      - [Comentarios e imagenes](#comentarios-e-imagenes)
      - [Flutter]()
-5. [Configuracion](#configuración)
-6. [Requisitos Previos](#requisitos-previos)
+5. [Requisitos Previos](#requisitos-previos)
+6. [Configuracion](#configuración)
+7. [Contribuir](#contribuir)
+8. [Autores](#autores)
+   
    
 
 ## Tecnologías Utilizadas
@@ -285,6 +288,6 @@ Si quieres contribuir a este proyecto, por favor sigue estos pasos:
 5. Crea un nuevo pull request.
    
 ## Autores
-Alberto Navarro Vega, Emilio Orduña Peña
+Proyecto realizado por Alberto Navarro Vega, Emilio Orduña Peña
 
 
