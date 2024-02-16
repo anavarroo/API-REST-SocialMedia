@@ -207,7 +207,41 @@ El paquete security contiene clases relacionadas con la autenticación y segurid
 ## Requisitos EXTRAS
 
 ### Swagger
+
+![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/0437fcdc-9e72-4f5c-9171-72fad0dc4702)
+![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/febea121-72bb-401b-aaaf-ba7a7b7c9b11)
+![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/d93583d4-8bc8-4423-9c17-7c6da05a26ec)
+
+Para acceder a el, levanta la api y entra en: http://localhost:8080/swagger-ui/index.html
+
 ### ControllerAdive
+```java
+package com.API_REST.ExceptionHandler;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ControllerAdvice
+public class GlobalExceptionHandler {
+
+    @ExceptionHandler(Exception.class)
+    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+    public ResponseEntity<String> handleException(Exception e) {
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Internal Server Error: " + e.getMessage());
+    }
+
+    @ExceptionHandler(IllegalArgumentException.class)
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    public ResponseEntity<String> handleIllegalArgumentException(IllegalArgumentException e) {
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Bad Request: " + e.getMessage());
+    }
+
+
+}
+```
 ### Comentarios e imagenes
 ### Front con Flutter
 
