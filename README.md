@@ -16,7 +16,7 @@ Esta es una aplicación de redes sociales que proporciona una plataforma para qu
      - [Swagger](#swagger)
      - [ControllerAdvice](#controlleradive)
      - [Comentarios e imagenes](#comentarios-e-imagenes)
-     - [Flutter]()
+     - [Flutter](#front-con-flutter)
 5. [Requisitos Previos](#requisitos-previos)
 6. [Configuracion](#configuración)
 7. [Contribuir](#contribuir)
@@ -266,6 +266,9 @@ Esta clase anotada con @ControllerAdvice maneja excepciones a nivel global en la
 ![image](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/d92e5cd3-d598-4d49-87b1-42709e7b9adc)
 
 ### Front con Flutter
+
+![Imagen de WhatsApp 2024-02-16 a las 12 10 16_95d9e34f](https://github.com/anavarroo/API-REST-SocialMedia/assets/117681310/2717bd8a-3d87-460e-a565-3bb77d69a6f5)
+
 
 
 ## Requisitos Previos
